@@ -1,0 +1,862 @@
+*{
+    box-sizing: border-box;
+}
+
+
+@font-face {
+    font-family: mf;
+    src: url('font/byekan.ttf'),
+} 
+html{
+    direction: rtl;
+   
+    /* font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+}
+body{
+    margin: 0;
+    font-family: mf;
+
+    /* font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+}
+.background-header{
+    background-color: #7D16EE;
+    position: relative;
+    /* position: fixed;
+    z-index: 1; */
+    width: 100%;
+ }
+ .navbar-nav .nav-link{
+     color:white;
+ }
+
+.nav-link:hover{
+    color: white;
+}
+.nav-item{
+    padding: 0 10px;
+}
+.logo img{
+width: 100px;
+padding-top: 10px;
+float: left;
+
+}
+ .icons  {
+list-style: none;
+padding: 0;
+margin: 0;
+float: right;
+}
+.icons .item-icons{
+    float:left;
+    padding: 0 15px;
+}
+.icons .item-icons a {
+    color: white;
+   
+} 
+.icons .item-icons a:hover{
+    text-decoration: none;
+}
+.search{
+    background-color: white;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    display: none;
+  
+}
+.input-search{
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 100px;
+}
+/* @media screen and (max-width:992px){
+   
+} */
+
+
+.carousel img{
+   display: block;
+   width: 100%;
+   height: 100%;
+   cursor: pointer;
+}
+.carousel-indicators .slider{
+    border-radius: 50%;
+    border: 1px solid transparent;
+    width: 12px;
+    height: 12px;
+    padding: 0;
+    background-color: #fff;
+    margin: 0 7px;
+    display: inline-block;
+    transition: all .3s;
+    
+}
+.mahsulat1{
+    padding-top: 30px;
+}
+.float-fasele{
+    position: relative;
+}
+.float-fasele img{
+    width: 100%;
+}
+.caption {
+   position: absolute;
+   top: 50px;
+   left:30px;
+  
+}
+/* .float-fasele:hover .caption-eye{
+border-bottom: 2px solid #E65C82;
+transform: translate3d(0, 0, 0);
+
+}
+.float-fasele:hover .caption-face{
+    border-bottom: 2px solid #E1A870;
+    transform: translate3d(0, 0, 0);
+
+}
+.float-fasele:hover .caption-gift{
+        border-bottom: 2px solid #FCF5E9;
+        transform: translate3d(0, 0, 0);
+        
+}
+.float-fasele:hover .caption-lip{
+    border-bottom: 2px solid #FCF5E9;
+    transform: translate3d(0, 0, 0);
+    
+} */
+.onvan-lora h4{
+ text-align: center;
+  padding-top: 15px;
+}
+.entekhab-lora{
+    position: relative;
+}
+
+.entekhab-lora img{
+    width: 100%;
+}
+.caption-lora{
+    margin-top: 15px;
+}
+.caption-lora .takhfif{
+    display: inline;
+    color: #9d9992;
+    padding: 5px;
+    
+}
+.caption-lora p{
+    font-size: 12px;
+}
+.caption-lora .gheymat{
+    font-weight: bold;
+}
+.caption-lora span{
+    background-color: #E65C82;
+    border-radius: 19px;
+    padding: 4px;
+    font-size: 10px;
+    color: white;
+}
+.icons-mahsul{
+    position: absolute;
+    top: 200px;
+    left: 55px;
+    display: none;
+}
+.icons-mahsul .list-mahsul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.list-mahsul li{
+    float: left;
+    padding: 0 10px;
+}
+.list-mahsul li a{
+    display: block;
+    color: black;
+    background-color: white;
+    border-radius: 50%;
+    padding: 10px;
+}
+.list-mahsul a:hover{
+    text-decoration: none;
+}
+.like{
+    position: absolute;
+    top: 0;
+    left: 15px;
+}
+
+ /* @media screen and (max-width:576px){
+    .carousel .carousel-inner img{
+    margin-top: 114px;
+    }
+  }  */
+  /* @media screen and (max-width:767px){
+    .carousel .carousel-inner img{
+    margin-top: 114px;
+    }
+  /* } */
+  /* @media screen and (max-width:992px){
+    .carousel .carousel-inner img{
+    margin-top: 114px;
+    }
+  } */ 
+
+
+.background-footer{
+    background-color: #F8F8F8;
+    position: relative;
+   
+}
+.list-komak ul{
+
+list-style: none;
+text-align: right;
+margin-top: 25px;
+}
+.list-komak a{
+color: #606060;
+text-decoration: none;
+line-height: 35px;
+padding: 12px 0;
+text-justify: initial;
+font-size: 14px;
+
+}
+.list-komak a:hover{
+color: #606060;
+text-decoration: none;
+}
+.list-komak h6{
+    color:#4A5F73;
+    margin-left: 85px;
+    margin-top: 15px;
+}
+.list-komak .lora{
+    color: #4A5F73;
+    margin-left: 150px;
+    margin-top: 15px;
+}
+.tandis img{
+    display: block;
+}
+.tandis p{
+    color: white;
+    text-align: center;
+   margin-left: 23px;
+   margin-top: 10px;
+}
+.list-komak p{
+    color: #4A5F73;
+    font-size: 14px;
+    margin-top: 60px;
+   
+}
+.list-komak  input{
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #4A5F73;
+    font-size: 13px;
+}
+.list-komak .dokme-email{
+position: absolute;
+left: 15px;
+top: 96px;
+padding: 7.5px;
+}
+.modal-body {
+  
+   height: 150px;
+}
+.footer-neshani p{
+ 
+  float: right;
+  padding-left: 40px;
+  
+}
+.marketha img{
+    float: right;
+   width: 150px;
+   
+}
+/* @media screen and (max-width:992px){
+    .list-komak .dokme-email {
+        position: absolute;
+        left: 15px;
+        top: 119px;
+        padding: 7.5px;
+    }
+    .list-komak input {
+        width: 100%;
+        height: 40px;
+        border-radius: 5px;
+        border: 1px solid #4A5F73;
+        font-size: 12px;
+    }
+    .list-komak .lora {
+        color: #4A5F73;
+        margin-left: 113px;
+        margin-top: 52px;
+    }
+    .list-komak h6 {
+        color: #4A5F73;
+        margin-left: 50px;
+        margin-top: 55px;
+    }
+    .list-komak input {
+        width: 100%;
+        height: 40px;
+        border-radius: 5px;
+        border: 1px solid #4A5F73;
+        font-size: 7px;
+    }
+ 
+  }  */
+
+  /* @media screen and (max-width:767px){
+    .list-komak .dokme-email{
+          position: absolute;
+          left: 15px;
+          top: 117px;
+          padding: 7.5px;
+          }
+          .list-komak .lora {
+              color: #4A5F73;
+              margin-left: 139px;
+              margin-top: 52px;
+          }
+          .list-komak h6 {
+              color: #4A5F73;
+              margin-left: 76px;
+              margin-top: 15px;
+          } 
+         
+  }
+ */
+
+/* @media screen and (max-width:576px){
+    .list-komak .dokme-email{
+        position: absolute;
+        left: 15px;
+        top: 117px;
+        padding: 7.5px;
+        }
+        .list-komak  input{
+            width: 100%;
+            height: 40px;
+            border-radius: 5px;
+            border: 1px solid #4A5F73;
+            font-size: 10px;
+        }
+       
+        .list-komak h6 {
+            color: #4A5F73;
+            margin-left: 82px;
+            margin-top: 15px;
+        }
+        .list-komak .lora {
+            color: #4A5F73;
+            margin-left: 146px;
+            margin-top: 15px;
+        }
+        .footer-neshani p {
+            display: inline;
+            float: right;
+            padding-left: 93px; 
+        }
+} */
+
+
+/* @media screen and (max-width:992px){
+    .list-komak .dokme-email {
+        position: absolute;
+        left: 15px;
+        top: 137px;
+        padding: 7.5px;
+    }
+    .list-komak .lora {
+        color: #4A5F73;
+        margin-left: 57px;
+        margin-top: 52px;
+    }
+    .list-komak h6 {
+        color: #4A5F73;
+        margin-left: 15px;
+        margin-top: 55px;
+    }
+    .list-komak input {
+        width: 100%;
+        height: 40px;
+        border-radius: 5px;
+        border: 1px solid #4A5F73;
+        font-size: 7px;
+    }
+ 
+  } */
+
+
+/* منوها */
+.backgrounds, .backgroundskin {
+    background-color: #38179a;
+    width: 70%;
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+   display: none;
+   border-radius: 3px;
+   border: 1px solid  #38179a;;
+}
+.backgrounds  .mahsulat-face{
+    padding-top: 5px;
+    color:white;
+    font-size: 11.5px;
+   
+}
+.backgroundskin  .mahsulat-face{
+    padding-top: 5px;
+    color:white;
+    
+    padding-left: 10px;
+    font-size: 11.5px;
+}
+
+.backgrounds .list-face{
+padding-right: 10px;
+margin: 0;
+list-style: none;
+text-align: right;
+}
+.backgroundskin .list-face {
+    padding-right: 10px;
+    margin: 0;
+    list-style: none;
+    text-align: right;
+    }
+.backgrounds  .list-face  a{
+    display: block;
+    text-decoration: none;
+    color: #ffffff;
+    line-height: 28px;
+    padding-bottom: 10px;
+}
+.backgroundskin .list-face  a{
+    display: block;
+    text-decoration: none;
+    color: #ffffff;
+    line-height: 30px;
+}
+
+.show {
+    display: block !important;
+  }
+
+
+.baner-tamas {
+    position: relative;
+}
+.baner-tamas h4{
+   text-align: right;
+  position: absolute;
+ bottom: 100px;
+ right: 60px;
+}
+.baner-tamas p{
+    text-align: right;
+   position: absolute;
+  bottom: 50px;
+  right: 60px;
+  font-weight: bold;
+ }
+ .background-tamas{
+     background-color: white;
+     box-shadow: 0 0px 4px 0px #606060;
+     text-align: right;
+     padding: 15px;
+     border-radius: 3.5px;
+ }
+ .form-tamas input{
+     display: block;
+     padding-left: 40px;
+     margin-right: 5px;
+     margin-top: 10px;
+ }
+ .form-tamas div{
+margin-top: 40px;
+ }
+ .form-tamas div input{
+     height: 200px;
+     width: 518px;
+ }
+ .background-mahsul{
+     background-color:#F5F5F5;
+     height:100%;
+    position: relative;
+ }
+.background-mahsul  .sharing{
+    position: absolute;
+    left: 12px;
+    top: 22px;
+    cursor: pointer;
+}
+.background-mahsul .like{
+    cursor: pointer;
+}
+ .background-mahsul img{
+     margin-top: 30px;
+     width: 300px;
+    float: left;
+ }
+ .mahsul-khat{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+ }
+ .mahsul-khat .imge-khat{
+     width: 80px;
+     padding: 4px;
+    border: 1px solid #b1b1b1;
+    border-radius: 3px;
+     float: left;
+    
+ }
+.property{
+   text-align: right;
+}
+.tosihat{
+    text-align: right;
+    cursor: pointer;
+    font-size: 15px;
+    color: blue;
+}
+.tosihat-brand{
+  text-align: right;
+    cursor: pointer;
+    font-size: 15px;
+}
+.tab-content div{
+    text-align: right;
+    line-height: 40px;
+}
+@media screen and (max-width:1200px){
+    .navbar{
+        float: right;
+        text-align: right;
+    }
+    .list-komak h6 {
+        color: #4A5F73;
+        margin-left: 50px;
+        margin-top: 15px;
+    }
+    .list-komak .lora {
+        color: #4A5F73;
+        margin-left: 128px;
+        margin-top: 15px;
+    }
+    .list-komak .dokme-email {
+        position: absolute;
+        left: 15px;
+        top: 117px;
+        padding: 7.5px;
+        
+    }
+    div .test {
+        background-color: #F5F5F5;
+        box-shadow: 0 0px 4px 0px #606060;
+        width: 100%;
+    }
+  }
+
+  iframe {
+    width: 450px;
+    height: 450px;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+}
+
+.form-tamas div input{
+    height: 200px;
+    width: 350px;
+}
+@media screen and (max-width:992px){
+    /* .carousel .carousel-inner img{
+        margin-top: 114px;
+        } */
+      .baner-tamas {
+            margin-top: 135px;
+            
+        } 
+    .background-icon{
+        background-color: black;
+        
+    }
+    .background-icon .icons{
+      float: left;
+    }
+    .background-mahsul{
+        margin-top: 50px;
+    }
+    .mahsul-khat {
+        position: absolute;
+        bottom: 0;
+        left: 15px;
+    }
+
+    .list-komak .dokme-email {
+        position: absolute;
+        left: 15px;
+        top: 107px;
+        padding: 7.5px;
+    }
+    .list-komak input {
+        width: 100%;
+        height: 40px;
+        border-radius: 5px;
+        border: 1px solid #4A5F73;
+        font-size: 12px;
+    }
+    .list-komak .lora {
+        color: #4A5F73;
+        margin-left: 72px;
+        margin-top: 52px;
+    }
+    .list-komak h6 {
+        color: #4A5F73;
+        margin-left: 0px;
+        margin-top: 55px;
+    }
+    .list-komak input {
+        width: 100%;
+        height: 40px;
+        border-radius: 5px;
+        border: 1px solid #4A5F73;
+        font-size: 7px;
+    }
+    .list-komak p {
+        color: #4A5F73;
+        font-size: 11px;
+        margin-top: 60px;
+    }
+}
+iframe {
+    width: 300px;
+    height: 350px;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+}
+
+.form-tamas div input{
+    height: 200px;
+    width: 300px;
+}
+.background-mahsul {
+    margin-top: 50px;
+}
+@media screen and (max-width:767px){
+    .baner-tamas {
+        margin-top: 110px;
+    }
+
+    .list-komak .dokme-email{
+        position: absolute;
+        left: 15px;
+        top: 91px;
+        padding: 7.5px;
+        }
+        .list-komak .lora {
+            color: #4A5F73;
+            margin-left: 139px;
+            margin-top: 52px;
+        }
+        .list-komak h6 {
+            color: #4A5F73;
+            margin-left: 76px;
+            margin-top: 15px;
+        } 
+       
+        iframe {
+            width: 360px;
+            height: 350px;
+            border-top-width: 0px;
+            border-right-width: 0px;
+            border-bottom-width: 0px;
+            border-left-width: 0px;
+        }
+        
+        .form-tamas div input{
+            height: 200px;
+            width: 350px;
+        }
+    /* .carousel .carousel-inner img{
+        margin-top: 114px;
+        } */
+    .background-mahsul {
+        margin-top: 50px;
+        height: 100%;
+    }
+    .width-button {
+     width: 170px;
+    }
+    .backgrounds, .backgroundskin {
+        background-color: #38179a;
+        width: 170%;
+        position: absolute;
+        z-index: 1;
+        top: 100%;
+       display: none;
+       border-radius: 3px;
+       border: 1px solid  #38179a;;
+    }
+    .backgroundskin {
+        background-color: #38179a;
+        width: 180%;
+        position: absolute;
+        z-index: 1;
+        top: 100%;
+        right: 10%;
+       display: none;
+       border-radius: 3px;
+       border: 1px solid  #38179a;;
+    }
+}
+@media screen and (max-width:576px){
+    .baner-tamas p {
+        text-align: right;
+        position: absolute;
+        bottom: 38px;
+        right: 60px;
+        font-weight: bold;
+    }
+
+    .list-komak .dokme-email{
+        position: absolute;
+        left: 15px;
+        top: 91px;
+        padding: 7.5px;
+        }
+        .list-komak  input{
+            width: 100%;
+            height: 40px;
+            border-radius: 5px;
+            border: 1px solid #4A5F73;
+            font-size: 10px;
+        }
+       
+        .list-komak h6 {
+            color: #4A5F73;
+            margin-left: 82px;
+            margin-top: 15px;
+        }
+        .list-komak .lora {
+            color: #4A5F73;
+            margin-left: 146px;
+            margin-top: 15px;
+        }
+        .footer-neshani p {
+            
+            float: right;
+            padding-left: 93px; 
+        }
+    /* .carousel .carousel-inner img{
+        margin-top: 114px;
+        } */
+    .background-mahsul {
+        margin-top: 50px;
+        height: 100%;
+    }
+    .mahsul-khat {
+        position: absolute;
+        bottom: 35px;
+        left: 15px;
+    }
+    .tosihat {
+        text-align: right;
+        cursor: pointer;
+        font-size: 8px;
+        color: blue;
+    }
+    .background-mahsul img {
+        margin-top: 30px;
+        width: 165px;
+        float: left;
+    }
+    .tosihat-brand {
+        text-align: right;
+        cursor: pointer;
+        font-size: 10px;
+    }
+  
+    .width-button {
+        width: 120px;
+    }
+    iframe {
+        width: 260px;
+        height: 300px;
+        border-top-width: 0px;
+        border-right-width: 0px;
+        border-bottom-width: 0px;
+        border-left-width: 0px;
+    }
+    
+    .form-tamas div input{
+        height: 200px;
+        width: 300px;
+    }
+    .backgrounds, .backgroundskin {
+        background-color: #38179a;
+        width: 170%;
+        position: absolute;
+        z-index: 1;
+        top: 100%;
+       display: none;
+       border-radius: 3px;
+       border: 1px solid  #38179a;;
+    }
+    .backgroundskin {
+        background-color: #38179a;
+        width: 180%;
+        position: absolute;
+        z-index: 1;
+        top: 100%;
+        right: 10%;
+       display: none;
+       border-radius: 3px;
+       border: 1px solid  #38179a;;
+    }
+    .carousel-indicators {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        z-index: 0;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-pack: center;
+        justify-content: center;
+        padding-left: 0;
+        margin-right: 15%;
+        margin-left: 15%;
+        list-style: none;
+    }
+}
+
+div .test{
+    background-color:#F5F5F5;
+    
+    box-shadow: 0  0px 4px 0px #606060;
+}
